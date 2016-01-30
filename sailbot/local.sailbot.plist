@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>local.sailbot</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/natpen/.nvm/versions/node/v4.2.1/bin/node</string>
+    <string>/Users/natpen/code/sailbot/index.js</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/natpen/code/sailbot</string>
+
+  <key>Nice</key>
+  <integer>0</integer>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>0</integer>
+    <key>Minute</key>
+    <integer>1</integer>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/natpen/code/launchd/sailbot/output.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/natpen/code/launchd/sailbot/error.log</string>
+</dict>
+</plist>
